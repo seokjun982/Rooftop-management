@@ -1,0 +1,31 @@
+Prescaler = 168Mhz
+period = 10000
+
+TIM_Prescaler는 타이머(TIM)의 클럭 주기를 설정하는 레지스터입니다.
+
+타이머 클럭주기는 시스템클럭주기 / prescaler
+
+
+Timer Clock = APB2TimerClock / Prescaler
+
+APB2 Bus Clock = 84Mhz
+
+Datasheet APB2 presec 1이외 (APB2 = 2에 해당) *2
+
+168Mhz timer clock 도출
+
+Timer Clock  = 168Mhz / 168 = 1Mhz
+ 1us
+Period(주기) = 20000 * 1us= 0.02ms
+
+pwm 2000 2ms HIGH 
+
+
+
+
+
+Socket SQL
+
+아두이노에서 측정된 센서 값을 SENSOR 명칭과 함께 전달 받으면 해당 테이블의 형식에 맞게 insert 했다.
+
+Cortex와 Android에서 GETSENSOR 메세지를 전달 받으면 id 기준으로 정렬된 마지막 행을 리턴해줬다.

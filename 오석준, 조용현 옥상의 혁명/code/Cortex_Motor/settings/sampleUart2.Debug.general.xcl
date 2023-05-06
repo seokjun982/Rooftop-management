@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armSTLINK.dll" 
+
+"C:\Users\IoT11\Documents\IAR\sampleUart2_project_split_ksh_v4_testversion\Debug\Exe\sampleUart2.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/ST/STM32F4xx.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/ST/FlashSTM32F4xxx.board" 
+
+
+
+
